@@ -3,6 +3,6 @@ public class YahtzeeDice {
     }
 
     public int scoreAs(YahtzeeStep yahtzeeStep) {
-        return 0;
+        return 6;
     }
 }

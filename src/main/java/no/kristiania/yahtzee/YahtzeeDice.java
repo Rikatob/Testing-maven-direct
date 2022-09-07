@@ -1,3 +1,5 @@
+package no.kristiania.yahtzee;
+
 public class YahtzeeDice {
     public YahtzeeDice(int[] die) {
     }

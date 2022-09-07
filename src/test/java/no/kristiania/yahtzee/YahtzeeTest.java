@@ -1,3 +1,6 @@
+package no.kristiania.yahtzee;
+
+import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
@@ -10,6 +13,6 @@ public class YahtzeeTest {
             1, 1, 1, 1, 1, 1
         }
         );
-        assertEquals(6,dice.scoreAs(YahtzeeStep.CHANCE));
+        Assertions.assertEquals(6,dice.scoreAs(YahtzeeStep.CHANCE));
     }
 }
